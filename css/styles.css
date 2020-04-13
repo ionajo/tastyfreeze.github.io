@@ -6,11 +6,17 @@
 
 body {
   /* apply custom rules to the body here */
+  font-family: 'Mukta', sans-serif;
 }
 
 header {
   padding: 154px 0 100px;
-  background: linear-gradient(45deg, rgba(39, 43, 48, 1) 0%, rgba(39, 43, 48, 0.6) 100%), url('images/bg-masthead.jpg');
+  background: linear-gradient(45deg, rgba(39, 43, 48, 1) 0%, rgba(39, 43, 48, 0.9) 100%), url('../images/bg-masthead.jpg');
+}
+
+header h1 {
+  font-size: 4rem;
+  font-weight: 800;
 }
 
 /* media query when the media is wider than 992px */

@@ -17,7 +17,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <!-- Google web font -->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/styles.css" rel="stylesheet">
@@ -49,8 +49,8 @@
     <!-- Welcome Section -->
     <header class="bg-secondary text-white">
       <div class="container text-center">
-        <h1>A basic starter template</h1>
-        <p class="lead">Built for you with love by @rgdonohue<br> using <a href="https://getbootstrap.com/">Bootstrap</a> and several starter templates from <a href="https://startbootstrap.com/">Start Bootstrap</a></p>
+        <h1>Sheltowee Trace</h1>
+        <img src="images/trail-signs.svg" width="500px"
       </div>
     </header>
 
@@ -60,73 +60,91 @@
         <div class="row">
           <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/430x245" alt=""></a>
+              <a href="https://www.sheltoweetrace.com/hike/"><img class="card-img-top" src="images/portfolio-2.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Project One</a>
+                  <a href="https://www.sheltoweetrace.com/hike/">Hike the Daniel Boone</a>
                 </h4>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+                <p class="card-text">A basic map of trails and amenities found along the Sheltowee Trace.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/430x245" alt=""></a>
+              <a href="https://www.sheltoweetrace.com/hike/scenic/"><img class="card-img-top" src="images/portfolio-1.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Project Two</a>
+                  <a href="https://www.sheltoweetrace.com/hike/scenic/">Scenic Trail Index</a>
                 </h4>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <p class="card-text">In this experiment we are creating zones at discreet locations along trail and estimating the character of that location.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/430x245" alt=""></a>
+              <a href="#" data-toggle="modal" data-target="#devilsjump"><img class="card-img-top" src="devilsjump/img/preview-devilsjump.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Project Three</a>
+                  <a href="#" data-toggle="modal" data-target="#devilsjump">Devils Jump</a>
                 </h4>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/430x245" alt=""></a>
+              <a href="#" data-toggle="modal" data-target="#overlook"><img class="card-img-top" src="overlook/img/preview-overlook.jpg" alt="Trail Overlook"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Project Four</a>
+                  <a href="#" data-toggle="modal" data-target="#overlook">Trail Overlook</a>
                 </h4>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6 portfolio-item">
-            <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/430x245" alt=""></a>
-              <div class="card-body">
-                <h4 class="card-title">
-                  <a href="#">Project Five</a>
-                </h4>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 portfolio-item">
-            <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/430x245" alt=""></a>
-              <div class="card-body">
-                <h4 class="card-title">
-                  <a href="#">Project Six</a>
-                </h4>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
-              </div>
-            </div>
-          </div>
+      
         </div>
       </div>
     </section>
+
+    <!-- Modal Devils Jump -->
+    <div id="devilsjump" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-xl">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title"></h4>
+          </div>
+          <div class="modal-body">
+            <img src="devilsjump/img/devilsjump.jpg" width="100%">
+            <h3 class="mt-1">Devils Jump on the Big South Fork</h3>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Overlook -->
+    <div id="overlook" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-xl">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title"></h4>
+          </div>
+          <div class="modal-body">
+            <img src="overlook/img/overlook.jpg" width="100%">
+            <h3>Trail overlook</h3>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
    <!-- About Section -->
    <section id="about">
@@ -135,7 +153,7 @@
           <div class="col-lg-12 mx-auto">
             <h2>About me</h2>
             <div class='my-5 clearfix'>
-              <div class="float-md-left mb-5 mr-md-4"><img class="rounded-circle img-fluid" src="http://placehold.it/200x200" alt=""></div>
+              <div class="float-md-left mb-5 mr-md-4"><img class="rounded-circle img-fluid" src="images/tastyfreeze-avatar.jpg" alt="TastyFreeze" width="50%"></div>
               <p class="lead">Hi, I'm Ptolemy. I'm a Geographer and Cartographer specializing in frontend JS development and web mapping with such cool libraries as Leaflet and D3.js.</p>
               <p class="lead">When I'm not banging my head against the computer I'm spinning records, doing yoga, or landscape reading.</p>
             </div>
@@ -170,7 +188,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
       </div>
     </footer>
 

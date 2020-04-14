@@ -11,7 +11,7 @@ body {
 
 header {
   padding: 154px 0 100px;
-  background: linear-gradient(45deg, rgba(39, 43, 48, 1) 0%, rgba(39, 43, 48, 0.9) 100%), url('../images/bg-masthead.jpg');
+  background: linear-gradient(45deg, rgba(39, 43, 48, 0.8) 0%, rgba(39, 43, 48, 0.9) 100%), url('../images/bg-masthead.jpg');
 }
 
 header h1 {
